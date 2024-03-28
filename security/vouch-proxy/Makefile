@@ -1,7 +1,6 @@
 PORTNAME=	vouch-proxy
 DISTVERSIONPREFIX=v
-DISTVERSION=	0.39.0
-PORTREVISION=	9
+DISTVERSION=	0.40.0
 CATEGORIES=	security
 
 MAINTAINER=	decke@FreeBSD.org
@@ -11,7 +10,7 @@ WWW=		https://github.com/vouch/vouch-proxy
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		go:modules
+USES=		go:1.22,modules
 
 USE_RC_SUBR=	${PORTNAME}
 
